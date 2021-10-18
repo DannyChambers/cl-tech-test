@@ -7,6 +7,9 @@ import Heading from "../../01-arrangements/heading";
 import Paragraph from "../../01-arrangements/paragraph";
 import Card from "../../01-arrangements/card";
 import Layout from "../../01-arrangements/layout";
+import ButtonGroup from "../../01-arrangements/button-group";
+//Patterns
+import Button from "../../02-patterns/button";
 
 const HomePage = (props) => {
 	return (
@@ -31,6 +34,10 @@ const HomePage = (props) => {
 							intelligence is a mainstay in the field of
 							technology.
 						</Paragraph>
+						<ButtonGroup>
+							<Button size='small' text='Design' />
+							<Button size='small' text='Development' />
+						</ButtonGroup>
 					</Card>
 				</div>
 				<div className='column'>
