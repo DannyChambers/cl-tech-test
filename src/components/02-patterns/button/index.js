@@ -74,7 +74,7 @@ const El = styled.div`
 		props.size === "small" &&
 		css`
 			padding: 0 var(--spacing-quarter);
-			font-size: var(--text-size-8);
+			font-size: 1.28rem;
 			line-height: 2rem;
 			height: calc(var(--sizing-half));
 			border-radius: var(--radius-threequarters);

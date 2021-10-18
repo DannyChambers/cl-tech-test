@@ -22,12 +22,9 @@ const HomePage = (props) => {
 				`https://6103a28e79ed680017482595.mockapi.io/api/v1/posts`
 			);
 
-			console.log("articles: ", articles);
-
 			articles.data.map((item) => {
 				let image = item.image;
 				let secureImage = image.replace("http:", "https:");
-				console.log("secureImage: ", secureImage);
 				item.image = secureImage;
 			});
 

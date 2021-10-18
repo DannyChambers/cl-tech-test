@@ -25,7 +25,7 @@ const El = styled.div`
 		props.grid &&
 		css`
 			display: grid;
-			gap: 0 var(--spacing-half);
+			gap: 0 var(--spacing-threequarters);
 			grid-template-columns: 1fr;
 		`}
 
