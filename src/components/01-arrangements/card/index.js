@@ -18,7 +18,7 @@ const Card = (props) => {
 		>
 			{(() => {
 				if (props.imageSrc) {
-					return <Image src={props.imageSrc} />;
+					return <Image src={props.imageSrc} alt={props.imageAlt} />;
 				}
 			})()}
 

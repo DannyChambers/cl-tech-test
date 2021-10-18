@@ -13,13 +13,21 @@ const Image = (props) => {
 					return (
 						<picture>
 							<source srcSet={props.srcWEBP} type='image/webp' />
-							<img src={props.srcSVG} loading='lazy' />
+							<img
+								src={props.srcSVG}
+								loading='lazy'
+								alt={props.alt}
+							/>
 						</picture>
 					);
 				} else {
 					return (
 						<picture>
-							<img src={props.src} loading='lazy' />
+							<img
+								src={props.src}
+								loading='lazy'
+								alt={props.alt}
+							/>
 						</picture>
 					);
 				}
