@@ -45,7 +45,11 @@ const HomePage = (props) => {
 					data.map((item) => {
 						return (
 							<div className='column' key={item.id}>
-								<Card href='#' imageSrc={item.image}>
+								<Card
+									href='#'
+									imageSrc={item.image}
+									imageAlt={item.title}
+								>
 									<Paragraph level='2' classes='date'>
 										{moment(item.createdAt).fromNow()}
 									</Paragraph>
