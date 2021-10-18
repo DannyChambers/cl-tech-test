@@ -32,26 +32,6 @@ const El = styled.div`
 
 	@media (min-width: ${breakpoints.breakpoint3}px) {
 		${(props) =>
-			props.grid === "50_50" &&
-			css`
-				grid-template-columns: 1fr 1fr;
-			`}
-		${(props) =>
-			props.grid === "40_60" &&
-			css`
-				grid-template-columns: 4.8fr 7.2fr;
-			`}
-			${(props) =>
-			props.grid === "60_40" &&
-			css`
-				grid-template-columns: 7.2fr 4.8fr;
-			`}
-			${(props) =>
-			props.grid === "33_33_33" &&
-			css`
-				grid-template-columns: 4fr 4fr 4fr;
-			`}
-			${(props) =>
 			props.grid === "25_25_25_25" &&
 			css`
 				grid-template-columns: 3fr 3fr 3fr 3fr;
