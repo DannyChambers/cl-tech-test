@@ -7,6 +7,7 @@ const Color = {
 	brandcolor4: "rgba(0, 0, 0, 0.15)", // Shadow
 	brandcolor5: "hsl(0, 0%, 100%)", // #ffffff
 	brandcolor6: "hsl(223, 71%, 29%)",
+	brandcolor7: "hsl(223, 26%, 61%)",
 };
 
 export const CSSColor = css`
@@ -18,8 +19,10 @@ export const CSSColor = css`
 		--brand-color-4: ${Color.brandcolor4};
 		--brand-color-5: ${Color.brandcolor5};
 		--brand-color-6: ${Color.brandcolor6};
+		--brand-color-7: ${Color.brandcolor7};
 		//Functional palette --
 		--text-color-dark: var(--brand-color-1);
+		--text-color-medium: var(--brand-color-7);
 		--text-color-light: var(--brand-color-5);
 		--background-color-1: var(--brand-color-2);
 		--border-color-1: var(--brand-color-3);
