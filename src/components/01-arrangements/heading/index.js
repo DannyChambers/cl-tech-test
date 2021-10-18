@@ -39,6 +39,7 @@ const El = styled.div`
 		css`
 			font-size: var(--text-size-1);
 			line-height: var(--line-height-1);
+			font-weight: 800;
 		`}
 
 	${(props) =>
@@ -46,6 +47,7 @@ const El = styled.div`
 		css`
 			font-size: var(--text-size-2);
 			line-height: var(--line-height-2);
+			font-weight: 800;
 		`}
 
 	${(props) =>
@@ -53,6 +55,7 @@ const El = styled.div`
 		css`
 			font-size: var(--text-size-3);
 			line-height: var(--line-height-3);
+			font-weight: 800;
 		`}
 
 	${(props) =>
@@ -60,6 +63,7 @@ const El = styled.div`
 		css`
 			font-size: var(--text-size-4);
 			line-height: var(--line-height-4);
+			font-weight: 700;
 		`}
 
 	${(props) =>
@@ -67,6 +71,7 @@ const El = styled.div`
 		css`
 			font-size: var(--text-size-5);
 			line-height: var(--line-height-5);
+			font-weight: 700;
 		`};
 
 	${(props) =>
@@ -74,6 +79,7 @@ const El = styled.div`
 		css`
 			font-size: var(--text-size-1);
 			line-height: var(--line-height-1);
+			font-weight: 800;
 		`}
 
 	${(props) =>
@@ -81,6 +87,7 @@ const El = styled.div`
 		css`
 			font-size: var(--text-size-2);
 			line-height: var(--line-height-2);
+			font-weight: 800;
 		`}
 
 	${(props) =>
@@ -88,6 +95,7 @@ const El = styled.div`
 		css`
 			font-size: var(--text-size-3);
 			line-height: var(--line-height-3);
+			font-weight: 800;
 		`}
 
 	${(props) =>
@@ -95,6 +103,7 @@ const El = styled.div`
 		css`
 			font-size: var(--text-size-4);
 			line-height: var(--line-height-4);
+			font-weight: 700;
 		`}
 
 	${(props) =>
@@ -102,6 +111,7 @@ const El = styled.div`
 		css`
 			font-size: var(--text-size-5);
 			line-height: var(--line-height-5);
+			font-weight: 700;
 		`};
 `;
 

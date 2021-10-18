@@ -62,16 +62,23 @@ const El = styled.div`
 			}
 		`}
 
-	.card-heading {
-		padding: var(--spacing-half);
-
-		.heading {
-			padding-bottom: 0;
-		}
-	}
-
 	.card-content {
 		padding: 0 var(--spacing-half) var(--spacing-half) var(--spacing-half);
+
+		.heading {
+			padding-bottom: var(--spacing-half);
+			font-size: 3.125rem; //This is why I still invoke class names/the cascade when using styled-components
+			line-height: 3.125rem;
+		}
+
+		.date {
+			padding: var(--spacing-half) 0;
+			font-size: 1.28rem;
+			line-height: 1.5rem;
+			font-family: var(--light-font);
+			text-transform: uppercase;
+			color: var(--text-color-medium);
+		}
 	}
 
 	@media (min-width: ${breakpoints.breakpoint4}px) {
