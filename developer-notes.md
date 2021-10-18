@@ -52,4 +52,4 @@
 I'm going to list discrepencies here. I wouyld normally talk with Designers right away if possible, but in the case of this test I will make the best choices I can and flag here.
 
 -   Typography does not match the stated size in the design. I have used the stated size as the Desktop size (Larger), and the presented size as the Mobile size (Smaller).
--
+-   Being as there are no links decribed in the card design, I have assumed that the entire card is clickable and provide hover states
