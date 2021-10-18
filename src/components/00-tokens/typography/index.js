@@ -33,27 +33,43 @@ const Typography = css`
 		--light-font: "Inter Light", Arial, sans-serif;
 		font-size: 62.5%;
 		//Font sizes --
-		--text-size-1: 6.104rem;
-		--line-height-1: calc(1em + 0.25);
-		--text-size-2: 4.883rem;
-		--line-height-2: calc(1em + 0.25);
-		--text-size-3: 3.906rem;
-		--line-height-3: calc(1em + 0.25);
-		--text-size-4: 3.125rem;
-		--line-height-4: calc(1em + 0.25);
-		--text-size-5: 2.5rem;
-		--line-height-5: calc(1em + 0.25);
-		--text-size-6: 2rem;
-		--line-height-6: calc(1em + 0.25);
-		--text-size-7: 1.6rem;
-		--line-height-7: calc(1em + 0.25);
-		--text-size-8: 1.28rem;
-		--line-height-8: calc(1em + 0.25);
+		--text-size-1: 5.341rem;
+		--line-height-1: 6.5rem;
+		--text-size-2: 4.272rem;
+		--line-height-2: 5.2rem;
+		--text-size-3: 3.418rem;
+		--line-height-3: 4.1rem;
+		--text-size-4: 2.734rem;
+		--line-height-4: 3.3rem;
+		--text-size-5: 2.188rem;
+		--line-height-5: 2.6rem;
+		--text-size-6: 1.75rem;
+		--line-height-6: 2.4rem;
+		--text-size-7: 1.4rem;
+		--line-height-7: 2.4rem;
+		--text-size-8: 1.12rem;
+		--line-height-8: 1.6rem;
 	}
 
 	@media (min-width: ${breakpoints.breakpoint4}px) {
 		:root {
-			//For this, we appear to be the same across devices
+			//Font sizes --
+			--text-size-1: 6.104rem;
+			--line-height-1: 6.5rem;
+			--text-size-2: 4.883rem;
+			--line-height-2: 5.2rem;
+			--text-size-3: 3.906rem;
+			--line-height-3: 4.1rem;
+			--text-size-4: 3.125rem;
+			--line-height-4: 3.3rem;
+			--text-size-5: 2.5rem;
+			--line-height-5: 2.6rem;
+			--text-size-6: 2rem;
+			--line-height-6: 2.4rem;
+			--text-size-7: 1.6rem;
+			--line-height-7: 2.4rem;
+			--text-size-8: 1.28rem;
+			--line-height-8: 1.6rem;
 		}
 	}
 `;
