@@ -7,7 +7,7 @@
 -   Use RIC to demonstrate some original thinking around component structure
 -   Use Styled components
 
-### Extra creadit if time
+### Extra credit if time
 
 -   Sort / Order by
 -   Filter by tag
@@ -23,7 +23,7 @@
 -   Effect (If time)
 -   Typography
 
-### Arrangments
+### Arrangements
 
 -   Heading
 -   Paragraph
