@@ -3,8 +3,10 @@ import styled, { css } from "styled-components";
 import { breakpoints } from "../../00-tokens/dimension";
 
 const Layout = (props) => {
+	const tag = props.list ? "ul" : "div";
 	return (
 		<El
+			as={tag}
 			{...props}
 			data-testid='123abc'
 			className={`layout ${props.classes}`}
@@ -17,6 +19,7 @@ const Layout = (props) => {
 const El = styled.div`
 	max-width: var(--maximum-page-width);
 	margin: 0 auto;
+	list-style: none;
 
 	${(props) =>
 		props.grid &&
