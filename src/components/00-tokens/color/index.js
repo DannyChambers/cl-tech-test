@@ -4,7 +4,7 @@ const Color = {
 	brandcolor1: "hsl(223, 71%, 19%)", //#0E2254 Text and CTA blue
 	brandcolor2: "hsl(235, 44%, 95%)", // #EDEEF8 Background blue
 	brandcolor3: "hsl(223, 57%, 85%)", // #C5D1EF Border blue
-	brandcolor4: "hsl(0, 0%, 15%)", // Shadow - Is this correct?
+	brandcolor4: "rgba(0, 0, 0, 0.15)", // Shadow
 };
 
 export const CSSColor = css`
