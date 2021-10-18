@@ -5,8 +5,8 @@ export const breakpoints = {
 	//for media query use in Styled Components, can not be used as native CSS variable so additionally exported here as the global 'breakpoints' object.
 	breakpoint1: 320,
 	breakpoint2: 375, //For iPhone 8 as specified
-	breakpoint3: 1024, // Macbook Pro desktop
-	maximumPageWidth: 1024,
+	breakpoint3: 1440, // Macbook Pro desktop
+	maximumPageWidth: 1440,
 };
 
 const Dimension = css`
